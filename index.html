@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NÓRDEN Arquitectura · Arquitectura e interiorismo en CABA y GBA</title>
+  <meta name="description" content="Estudio de arquitectura y diseño de interiores en CABA y Gran Buenos Aires. Proyectos de vivienda, reformas integrales, interiorismo y dirección de obra.">
+  <meta property="og:title" content="NÓRDEN Arquitectura">
+  <meta property="og:description" content="Espacios pensados para vivir mejor. Arquitectura, reformas e interiorismo en CABA y Gran Buenos Aires.">
+  <meta property="og:image" content="assets/frames/desktop/f_0001.webp">
+  <meta name="theme-color" content="#0E0D0C">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23222222'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23F3F0E9' text-anchor='middle'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Familjen+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="topo">
+  <a href="#inicio" class="marca" aria-label="NÓRDEN Arquitectura, ir al inicio">
+    <span class="marca-texto">NÓRDEN</span>
+  </a>
+  <nav class="menu" aria-label="Secciones">
+    <a href="#proyectos">Proyectos</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#especialidades">Especialidades</a>
+    <a href="#contacto" class="menu-cta">Conversemos</a>
+  </nav>
+</header>
+
+<main id="contenido">
+
+  <!-- APERTURA: el video avanza con el scroll. Cada .momento aparece en un tramo del recorrido (0 a 1). -->
+  <section id="inicio" class="cine" style="--altura: 520vh" aria-label="Presentación">
+    <div class="cine-palco">
+      <canvas class="cine-canvas" aria-hidden="true"></canvas>
+      <div class="cine-vinheta"></div>
+
+      <div class="momento" data-de="0" data-ate="0.3">
+        <div class="painel painel--vidro">
+          <h1 class="titulo-abertura">Arquitectura que transforma la manera de habitar.</h1>
+          <p class="apoio">Diseñamos espacios pensados para acompañar tu forma de vivir. Desde la primera idea hasta cada detalle del proyecto.</p>
+          <div class="acciones solo-rm">
+            <a href="#contacto" class="botao">Conversar sobre mi proyecto</a>
+            <a href="#proyectos" class="botao botao--linea">Ver proyectos</a>
+          </div>
+        </div>
+      </div>
+      <div class="momento momento--direita" data-de="0.38" data-ate="0.66">
+        <div class="painel painel--vidro">
+          <p class="destaque">Te acompañamos desde el primer boceto hasta la obra terminada, pensando en quienes van a vivir ahí.</p>
+        </div>
+      </div>
+      <div class="momento momento--centro" data-de="0.74" data-ate="1">
+        <div class="painel painel--vidro">
+          <p class="destaque">Espacios pensados para vivir mejor.</p>
+          <div class="acciones">
+            <a href="#contacto" class="botao">Conversar sobre mi proyecto</a>
+            <a href="#proyectos" class="botao botao--linea">Ver proyectos</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="etapa" aria-hidden="true">
+        <span class="etapa-n">01</span>
+        <span class="etapa-nome">Terreno</span>
+        <i class="etapa-barra"><b></b></i>
+      </div>
+
+      <div class="cine-dica" aria-hidden="true"><span></span>Deslizá</div>
+    </div>
+  </section>
+
+  <!-- 01 PROYECTOS (conceptuales) -->
+  <section id="proyectos" class="bloque" aria-labelledby="t-proyectos">
+    <div class="painel painel--cabecalho revelar">
+      <h2 id="t-proyectos">Proyectos</h2>
+      <p class="aviso">Estos tres proyectos son conceptuales: muestran cómo trabajamos, no son obras construidas. Las imágenes son ilustrativas.</p>
+    </div>
+
+    <article class="proyecto">
+      <img class="arte arte--direita" src="assets/img/umbral.webp" alt="Casa de hormigón visto y listones de roble con un gran paño vidriado" loading="lazy">
+      <div class="secao-grade">
+        <div class="painel revelar">
+          <span class="categoria">Arquitectura residencial</span>
+          <h3>Casa Umbral</h3>
+          <p>Una casa que empieza en la entrada: un umbral de hormigón visto deja pasar la luz y lleva el recorrido hasta el jardín. Las puertas y los revestimientos de roble le dan calidez al hormigón.</p>
+          <span class="etiqueta">Proyecto conceptual · imagen ilustrativa</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="proyecto">
+      <img class="arte arte--esquerda" src="assets/img/almagro.webp" alt="Living de un departamento antiguo con techos altos, parquet de roble en espiga y puertas balcón de madera" loading="lazy">
+      <div class="secao-grade secao-grade--direita">
+        <div class="painel revelar">
+          <span class="categoria">Reforma integral</span>
+          <h3>Departamento Almagro</h3>
+          <p>Un departamento en un edificio antiguo. Se recuperan los techos altos y el parquet de roble en espiga, y con la nueva distribución la luz del balcón llega hasta el fondo y la cocina se abre al living.</p>
+          <span class="etiqueta">Proyecto conceptual · imagen ilustrativa</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="proyecto">
+      <img class="arte arte--direita" src="assets/img/serena.webp" alt="Dormitorio minimalista con cama baja de roble, ropa de lino y luz filtrada por una cortina" loading="lazy">
+      <div class="secao-grade">
+        <div class="painel revelar">
+          <span class="categoria">Diseño de interiores</span>
+          <h3>Espacio Serena</h3>
+          <p>Un dormitorio resuelto con pocos materiales: madera clara, lino y paredes a la cal. La iluminación está pensada en capas para que el ambiente cambie con las horas del día.</p>
+          <span class="etiqueta">Proyecto conceptual · imagen ilustrativa</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- 02 PROCESO: recorrido de obra que avanza con el scroll -->
+  <section id="proceso" class="obra" aria-labelledby="t-proceso">
+    <div class="obra-palco">
+      <div class="obra-visual" aria-hidden="true">
+        <div class="obra-capa" data-de="0" data-ate="0.2">
+          <img class="arte arte--obra" src="assets/img/obra-boceto.webp" alt="" loading="lazy">
+        </div>
+        <div class="obra-capa obra-capa--plano" data-de="0.2" data-ate="0.42">
+          <svg class="plano" viewBox="0 0 400 300" fill="none">
+            <path class="trazo trazo--muro" pathLength="1" d="M40 40H360V260H40Z"/>
+            <path class="trazo" pathLength="1" d="M200 40V150"/>
+            <path class="trazo" pathLength="1" d="M40 150H140M175 150H255M290 150H360"/>
+            <path class="trazo" pathLength="1" d="M200 185V260"/>
+            <path class="trazo trazo--fino" pathLength="1" d="M140 150A35 35 0 0 1 175 185M255 150A35 35 0 0 0 290 185"/>
+            <path class="trazo trazo--abertura" pathLength="1" d="M80 40H160M240 40H320M260 260H330M40 190V230"/>
+            <path class="trazo trazo--cota" pathLength="1" d="M40 282H360M40 276V288M360 276V288M378 40V260M372 40H384M372 260H384"/>
+            <g class="plano-textos">
+              <text x="120" y="100">Estar</text>
+              <text x="280" y="100">Cocina</text>
+              <text x="120" y="215">Dormitorio</text>
+              <text x="280" y="215">Dormitorio</text>
+            </g>
+          </svg>
+        </div>
+        <div class="obra-capa" data-de="0.42" data-ate="0.6">
+          <img class="arte arte--obra" src="assets/img/proceso.webp" alt="" loading="lazy">
+        </div>
+        <div class="obra-capa" data-de="0.6" data-ate="0.74">
+          <img class="arte arte--obra" src="assets/img/obra-losa.webp" alt="" loading="lazy">
+        </div>
+        <div class="obra-capa" data-de="0.74" data-ate="0.88">
+          <img class="arte arte--obra" src="assets/img/obra-estructura.webp" alt="" loading="lazy">
+        </div>
+        <div class="obra-capa" data-de="0.88" data-ate="1">
+          <img class="arte arte--obra" src="assets/img/obra-terminada.webp" alt="" loading="lazy">
+        </div>
+        <p class="obra-pie"><span data-obra-etapa>Boceto</span> · imagen ilustrativa</p>
+      </div>
+
+      <div class="painel obra-panel">
+        <h2 id="t-proceso">Cómo trabajamos</h2>
+        <ol class="passos">
+          <li data-n="01" data-de="0" data-ate="0.2"><strong>Primer encuentro</strong><span>Conocemos tus necesidades, tus expectativas y el presupuesto con el que contás.</span></li>
+          <li data-n="02" data-de="0.2" data-ate="0.42"><strong>Conceptualización</strong><span>Desarrollamos las ideas y te presentamos una propuesta inicial.</span></li>
+          <li data-n="03" data-de="0.42" data-ate="0.6"><strong>Proyecto</strong><span>Definimos planos, materiales y toda la documentación.</span></li>
+          <li data-n="04" data-de="0.6" data-ate="1"><strong>Ejecución</strong><span>Acompañamos y coordinamos la obra, según el servicio que contrates.</span></li>
+        </ol>
+        <div class="obra-barra" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 ESPECIALIDADES -->
+  <section id="especialidades" class="secao secao--larga" aria-labelledby="t-especialidades">
+    <div class="painel painel--cabecalho revelar">
+      <h2 id="t-especialidades">Especialidades</h2>
+    </div>
+    <div class="cartoes">
+      <article class="painel cartao revelar">
+        <img class="arte arte--cartao" src="assets/img/esp-residencial.webp" alt="" loading="lazy">
+        <h3>Arquitectura residencial</h3>
+        <p>Viviendas unifamiliares, ampliaciones y proyectos desde cero.</p>
+      </article>
+      <article class="painel cartao revelar">
+        <img class="arte arte--cartao" src="assets/img/esp-reformas.webp" alt="" loading="lazy">
+        <h3>Reformas integrales</h3>
+        <p>Renovación de departamentos y casas.</p>
+      </article>
+      <article class="painel cartao revelar">
+        <img class="arte arte--cartao" src="assets/img/esp-interiores.webp" alt="" loading="lazy">
+        <h3>Diseño de interiores</h3>
+        <p>Distribución, iluminación, materiales y mobiliario.</p>
+      </article>
+      <article class="painel cartao revelar">
+        <img class="arte arte--cartao" src="assets/img/esp-direccion.webp" alt="" loading="lazy">
+        <h3>Dirección de obra</h3>
+        <p>Seguimiento y coordinación de la ejecución.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 04 CONTACTO -->
+  <section id="contacto" class="secao secao--contato" aria-labelledby="t-contacto">
+    <img class="arte arte--fundo arte--suave" src="assets/img/contacto.webp" alt="" loading="lazy">
+    <div class="painel painel--form revelar">
+      <h2 id="t-contacto">Tu próximo proyecto comienza con una conversación.</h2>
+      <p>Contanos qué tenés en mente. Nos gustaría conocer tu idea y ayudarte a darle forma.</p>
+      <form class="form" novalidate>
+        <div class="campo">
+          <label for="f-nombre">Nombre</label>
+          <input id="f-nombre" name="nombre" autocomplete="name" required>
+        </div>
+        <div class="campo">
+          <label for="f-email">Correo electrónico</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="campo campo--inteiro">
+          <label for="f-tipo">Tipo de proyecto</label>
+          <select id="f-tipo" name="tipo_de_proyecto" required>
+            <option value="">Elegí una opción</option>
+            <option>Arquitectura residencial</option>
+            <option>Reforma integral</option>
+            <option>Diseño de interiores</option>
+            <option>Dirección de obra</option>
+            <option>Todavía no lo sé</option>
+          </select>
+        </div>
+        <div class="campo campo--inteiro">
+          <label for="f-msg">Mensaje</label>
+          <textarea id="f-msg" name="mensaje" rows="4" required></textarea>
+        </div>
+        <input type="text" name="_honey" class="pote" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="botao campo--inteiro">Enviar consulta</button>
+        <p class="form-status campo--inteiro" role="status" aria-live="polite"></p>
+      </form>
+
+      <!-- DATOS DE CONTACTO: reemplazar los datos de ejemplo antes de publicar -->
+      <dl class="datos">
+        <div><dt>Correo</dt><dd><a href="mailto:contacto@nordenarquitectura.com.ar" data-email>contacto@nordenarquitectura.com.ar</a></dd></div>
+        <div><dt>Teléfono</dt><dd data-pendiente>A completar</dd></div>
+        <div><dt>Instagram</dt><dd data-pendiente>A completar</dd></div>
+        <div><dt>Ubicación</dt><dd>CABA y Gran Buenos Aires</dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="painel rodape-painel">
+    <span class="marca-texto">NÓRDEN</span>
+    <span>Arquitectura e interiorismo · CABA y Gran Buenos Aires</span>
+    <span>© <span data-ano>2026</span> NÓRDEN Arquitectura</span>
+  </div>
+</footer>
+
+<a class="whats" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3Zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.3-4-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.5 9.8 10.2 5.2 16 5.2s10.5 4.6 10.5 10.4S21.8 26.1 16 26.1Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4Z"/></svg>
+</a>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="casa3d.js"></script>
+</body>
+</html>
